@@ -17,3 +17,15 @@ function multiply (a, b) {
 return a * b
 }
 ```
+## Work experience
+I don't have yet
+
+## Education
+* Belarusian State Academy of Music
+* Course "Basics of HTML5 and CSS3"
+
+## Languages
+* Russian - native speaker
+* Belarusian - native speaker
+* English - A1 (In the process of studying at A2)
+
