@@ -1,1 +1,1 @@
- https://VolhaYu.github.io/rsschool-cv/cv
+ https://VolhaYu.github.io/rsschool-cv/
