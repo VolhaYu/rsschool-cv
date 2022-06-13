@@ -16,23 +16,28 @@
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li><a href="#Contacts" class="nav-lik">Contacts</a></li>
-                    <li><a href="#Summary" class="nav-lik">Summary</a></li>
-                    <li><a href="#Skills" class="nav-lik">Skills</a></li>
-                    <li><a href="#Code" class="nav-lik">Code</a></li>
-                    <li><a href="#Work experience" class="nav-lik">Work experience</a></li>
-                    <li><a href="#Education" class="nav-lik">Education</a></li>
-                    <li><a href="#Languages" class="nav-lik">Languages</a></li>
+                    <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#Work experience" class="nav-link">Work experience</a></li>
+                    <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
+    <main class="main-container">
         <div class="container">
-            <img src="assets/img/IMG_5343.jpg" alt="avatar" width="300">
-            <h1>VOLHA YURCHAK</h1>
-            <p>JUNIOR FRONT-END DEVELOPER</p>
-            <section id="Contacts">
+            <section class="section" id="profile">
+                <div class="wrapper">
+                    <img src="assets/img/IMG_5343.jpg" alt="avatar" width="300">
+                    <h1>VOLHA YURCHAK</h1>
+                    <p>JUNIOR FRONT-END DEVELOPER</p>
+                </div>
+            </section>
+            <div class="wrapper">
+            <section class="section" id="Contacts">                
                 <h2>Contacts</h2>
                 <ul>
                     <li>Minsk, Belarus</li>
@@ -42,7 +47,7 @@
                     <li>Github: VolhaYu</li>
                 </ul>
             </section>
-            <section id="Summary">
+            <section class="section" id="Summary">
                 <h2>Summary</h2>
                 <p>
                     I am 28 years old, I am a musician by education.
@@ -51,14 +56,16 @@
                     works out for me!
                 </p>
             </section>
-            <section id="Skills">
+        </div>
+        <div class="wrapper">
+            <section class="section" id="Skills">
                 <h2>Skills</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                 </ul>
             </section>
-            <section id="Code">
+            <section class="section" id="Code">
                 <h2>Code</h2>
                 <code>
                     <pre>
@@ -68,18 +75,21 @@
                     </pre>
                 </code>
             </section>
-            <section id="Work experience">
+        </div>
+        <div class="wrapper">
+            <section class="section" id="Work experience">
                 <h2>Work experience</h2>
                 <p>I don't have yet</p>
             </section>
-            <section id="Education">
+            <section class="section" id="Education">
                 <h2>Education</h2>
                 <ul>
                     <li>Belarusian State Academy of Music</li>
                     <li>Course "Basics of HTML5 and CSS3"</li>
                 </ul>
             </section>
-            <section id="Languages">
+        </div>
+            <section class="section" id="Languages">
                 <h2>Languages</h2>
                 <ul>
                     <li>Russian - native speaker</li>
@@ -87,6 +97,7 @@
                     <li>English - A1 (In the process of studying at A2)</li>
                 </ul>
             </section>
+        
         </div>
     </main>
     <footer>
