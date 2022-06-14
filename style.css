@@ -1,5 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 * {
     box-sizing: border-box;
@@ -52,6 +55,7 @@ body {
     background-image: url("assets/img/IMG_5343.jpg");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: 10px 15px;
     text-align: center;
     padding-top: 70px;
     border-bottom: none;
