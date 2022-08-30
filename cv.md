@@ -12,3 +12,16 @@ I am 29 years old, I am a musician by training. I decided to change my professio
 * CSS
 * Js basics
 
+## Sample code  
+```
+function dataReverse(data) {
+  let newData = [];
+  let dat = data.length;
+  for (let i = 0; i <= dat; i++) {
+    newData.push(...data.splice(-8));
+   } 
+  return newData;
+}
+```
+##  work experience
+I have some works that I made on stage#0.  
