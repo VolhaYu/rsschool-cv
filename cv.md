@@ -2,7 +2,7 @@
 ##  Contacts:
 * E-mail: olenka_glushko1993@mail.ru
 * Phone: +375297379684
-* Discord: Ольга Юрчак( @ VolhaYu )
+* Discord: Ольга Юрчак(@ VolhaYu )
 * Github: Volha Yu
 
 ##  About myself
@@ -23,7 +23,7 @@ function dataReverse(data) {
   return newData;
 }
 ```
-##  work experience
+##  Work experience
 I have some works that I made on stage#0.  
 
 ##  Education
