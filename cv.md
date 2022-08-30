@@ -25,3 +25,13 @@ function dataReverse(data) {
 ```
 ##  work experience
 I have some works that I made on stage#0.  
+
+##  Education
+* Belarusian State Academy of Music
+* Course "Basics of HTML5 and CSS3"
+* JS/FE Pre-School 2022Q2
+
+##  Languages
+* Russian - native speaker
+* Belarusian - native speaker
+* English - A1 (In the process of studying at A2)
