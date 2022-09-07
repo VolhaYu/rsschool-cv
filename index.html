@@ -4,9 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/icons-солнце.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">   
+    
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="container">            
+            <div class="wrapper">
+                <section class="section" id="profile">
+                    <div class="media">
+                        <div class="media-object">
+                            <img class="avatar" src="assets/img/IMG_5343.jpg" alt="аватар">
+                        </div>
+                        <div class="profile-name">
+                            <h1>VOLHA YURCHAK</h1>
+                            <p class="p-profile">
+                                JUNIOR FRONT-END DEVELOPER
+                            </p> 
+                        </div>
+                    </div>
+            
+                </section>
+            </div>            
+            <div class="wrapper">
+            <section class="section" id="Contacts">                
+                <h2>Contacts</h2>
+                <ul>
+                    <li class="section-text">Minsk, Belarus</li>
+                    <li class="section-text">E-mail: olenka_glushko1993@mail.ru</li>
+                    <li class="section-text">Phone: +375297379684</li>
+                    <li class="section-text">Discord: Ольга Юрчак#1242</li>
+                    <li class="section-text">Github: VolhaYu</li>
+                </ul>
+            </section>
+            <section class="section" id="Summary">
+                <h2>Summary</h2>
+                <p class="section-text">
+                    I am 29 years old, I am a musician by training. 
+                    I decided to change my profession to a Front-End developer. 
+                    To begin with, I passed stage #0 and I believe that I can reach the end of the course! 
+                    I hope everything works out for me!
+                </p>
+            </section>
+        </div>
+        <div class="wrapper">
+            <section class="section" id="Skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li class="section-text">HTML</li>
+                    <li class="section-text">CSS</li>
+                    <li class="section-text">Js basics</li>
+                </ul>
+            </section>
+            <section class="section" id="Code">
+                <h2>Code</h2>             
+                <code class="code">
+                    function dataReverse(data) {<br>
+                        let newData = [];<br>
+                        let dat = data.length;<br>
+                        for (let i = 0; i <= dat; i++) {<br>
+                          newData.push(...data.splice(-8));<br>
+                         } <br>
+                        return newData;<br>
+                      }
+                </code>         
+            </section>
+        </div>
+        <div class="wrapper">
+            <section class="section" id="Projects">
+                <h2>Projects</h2>
+                <p class="section-text">
+                    I have some works that I made on stage#0:
+                </p>
+                <ul>                        
+                    <li class="section-text"><a class="a-text" href="https://volhayu.github.io/travel/">Travel</a></li>
+                    <li class="section-text"><a class="a-text" href="https://volhayu.github.io/momentum/">Momentum</a></li>
+                    <li class="section-text"><a class="a-text" href="https://volhayu.github.io/codejam-eldritch/">Codejam</a></li>
+                </ul> 
+            </section>
+            <section class="section" id="Education">
+                <h2>Education</h2>
+                <ul>
+                    <li class="section-text">Belarusian State Academy of Music</li>
+                    <li class="section-text">Course "Basics of HTML5 and CSS3"</li>
+                    <li class="section-text">JS/FE Pre-School 2022Q2</li>
+                </ul>
+            </section>
+        </div>
+            <section class="section" id="Languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li class="section-text">Russian - native speaker</li>
+                    <li class="section-text">Belarusian - native speaker</li>
+                    <li class="section-text">English - A1 (In the process of studying at A2)</li>
+                </ul>
+            </section>
+        
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper">
+                <p class="footer-p">2022 
+                    <a class="link-git" href="https://github.com/VolhaYu">VolhaYu</a>
+                </p>
+                <a href="https://rs.school/js/">
+                    <img class="logo" src="assets/svg/rs_school_js.svg" alt="logo Rs" width="150">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
