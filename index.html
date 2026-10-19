@@ -1,186 +1,342 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV — Ольга Юрчак, Frontend Developer (React / TypeScript)</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/img/icons-солнце.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/img/icons-солнце.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link">О себе</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Навыки</a></li>
-                    <li class="nav-item"><a href="#experience" class="nav-link">Опыт</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Образование</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Языки</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Контакты</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">О себе</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Навыки</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Опыт</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Образование</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Языки</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="main-container">
-        <div class="container">
-            <div class="wrapper">
-                <section class="section" id="profile">
-                    <div class="media">
-                        <div class="media-object">
-                            <img class="avatar" src="assets/img/IMG_5343.jpg" alt="Ольга Юрчак">
-                        </div>
-                        <div class="profile-name">
-                            <h1>Ольга Юрчак</h1>
-                            <p class="p-profile">
-                                Frontend Developer (React / TypeScript)
-                            </p>
-                        </div>
-                    </div>
-                </section>
+      <div class="container">
+        <div class="wrapper">
+          <section class="section" id="profile">
+            <div class="media">
+              <div class="media-object">
+                <img
+                  class="avatar"
+                  src="assets/img/IMG_5343.jpg"
+                  alt="Ольга Юрчак"
+                />
+              </div>
+              <div class="profile-name">
+                <h1>Ольга Юрчак</h1>
+                <p class="p-profile">Frontend Developer (React / TypeScript)</p>
+              </div>
             </div>
-
-            <div class="wrapper">
-                <section class="section" id="contacts">
-                    <h2>Контакты</h2>
-                    <ul>
-                        <li class="section-text">Минск, Беларусь</li>
-                        <li class="section-text">Телефон: +375 (29) 737-96-84</li>
-                        <li class="section-text">E-mail: volhayurchak@mail.ru</li>
-                        <li class="section-text">
-                            <a class="a-text" href="https://t.me/volhayu" target="_blank" rel="noopener noreferrer">Telegram</a>
-                        </li>
-                        <li class="section-text">
-                            <a class="a-text" href="https://www.linkedin.com/in/%D0%BE%D0%BB%D1%8C%D0%B3%D0%B0-%D1%8E%D1%80%D1%87%D0%B0%D0%BA-400064256/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                        </li>
-                        <li class="section-text">GitHub: VolhaYu</li>
-                    </ul>
-                </section>
-
-                <section class="section" id="about">
-                    <h2>О себе</h2>
-                    <p class="section-text">
-                        Frontend Developer · React / TypeScript · 3+ года в продуктовых командах.
-                    </p>
-                    <p class="section-text">
-                        Работаю в продуктовой команде AI-платформы — занимаюсь интерфейсами AI-чата
-                        с LLM-ботами и агентами. Работаю с интерфейсами со сложной клиентской логикой:
-                        управление состоянием, асинхронные запросы, realtime.
-                    </p>
-                </section>
-            </div>
-
-            <div class="wrapper">
-                <section class="section" id="skills">
-                    <h2>Навыки</h2>
-                    <ul>
-                        <li class="section-text"><strong>Frontend:</strong> TypeScript · JavaScript (ES2023+) · React 19 · Next.js 16 (App Router, Server Components) · React Router 7 · HTML · CSS</li>
-                        <li class="section-text"><strong>Состояние и данные:</strong> Zustand · Redux Toolkit · RTK Query · React Hook Form · REST API · Axios · SSE · WebSocket</li>
-                        <li class="section-text"><strong>UI:</strong> Tailwind CSS · Radix UI · KaTeX · адаптивная вёрстка · Figma</li>
-                        <li class="section-text"><strong>Кросс-платформа:</strong> React Native / Expo · Electron</li>
-                        <li class="section-text"><strong>Процессы и инструменты:</strong> Jira · Trello · Code Review · Git / GitHub / GitLab</li>
-                        <li class="section-text"><strong>Дополнительно:</strong> Vite · npm · pnpm · Vitest · React Testing Library · OAuth 2.0 (Google, Yandex, VK, Telegram) · Firebase · i18next / react-i18next (12 локалей) · esbuild · Webpack · socket.io-client</li>
-                    </ul>
-                </section>
-            </div>
-
-            <div class="wrapper">
-                <section class="section" id="experience">
-                    <h2>Опыт работы</h2>
-
-                    <article>
-                        <h3>Frontend Developer (React / TypeScript) · AI-продукты · Maracuya</h3>
-                        <p class="section-text"><em>Ноябрь 2025 — настоящее время · <a class="a-text" href="https://maracuya.ru" target="_blank" rel="noopener noreferrer">maracuya.ru</a></em></p>
-                        <p class="section-text">
-                            Frontend-разработчик в продуктовой команде AI-платформы. Основной продукт —
-                            AI-чат с LLM-ботами и AI-агентами, генерацией изображений и видео, базой знаний
-                            и дополнительными инструментами.
-                        </p>
-                        <p class="section-text"><strong>Стек:</strong> React, TypeScript, Vite, Zustand, React Router, Tailwind CSS, Radix UI.</p>
-                        <p class="section-text"><strong>Дополнительно:</strong> React Native (WebView), Electron (перенос веб-версии в десктопное приложение).</p>
-
-                        <p class="section-text"><strong>AI / агенты</strong> — frontend AI-чата с LLM-ботами и AI-агентами: сценарии работы с AI, контекстом, базой знаний и инструментами; отображение ответов, состояний генерации и результатов работы AI.</p>
-                        <ul>
-                            <li class="section-text">Разрабатывала и развивала веб-клиент AI-чата: диалоги, поиск, работа с контекстом, базой знаний и дополнительными инструментами.</li>
-                            <li class="section-text">Работала с потоковым отображением ответов AI (SSE) и обработкой состояний генерации, включая восстановление прерванной генерации; вносила правки в существующую реализацию.</li>
-                            <li class="section-text">Управляла состоянием чата: сообщения, диалоги, асинхронные запросы, оптимистичные обновления.</li>
-                            <li class="section-text">Участвовала в разработке интерфейсов генерации изображений.</li>
-                            <li class="section-text">Разрабатывала интерфейсы загрузки и обработки пользовательских файлов.</li>
-                            <li class="section-text">Обеспечивала отображение Markdown, KaTeX-формул, подсветки кода и сложного форматирования сообщений.</li>
-                            <li class="section-text">Дорабатывала интерфейс подписки и оплаты.</li>
-                            <li class="section-text">Работала над авторизацией и OAuth-интеграциями, включая восстановление сессии.</li>
-                            <li class="section-text">Разрабатывала анимации и UI-состояния голосового ввода.</li>
-                            <li class="section-text">Поддерживала мультиязычный интерфейс (12 локалей) и темизацию; адаптировала интерфейс под desktop и mobile web.</li>
-                            <li class="section-text">Участвовала в разработке и поддержке мобильного приложения на React Native (WebView-обёртка веб-функциональности).</li>
-                            <li class="section-text">Участвовала в переносе веб-версии в десктопное приложение на Electron (renderer-часть, адаптация под десктоп).</li>
-                            <li class="section-text">Работала с макетами в Figma, вела задачи в Jira, участвовала в Code Review.</li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <h3>Frontend Developer (React / TypeScript) · ООО «Интер Программ»</h3>
-                        <p class="section-text"><em>Июль 2023 — октябрь 2025 · <a class="a-text" href="https://rapido-club.com" target="_blank" rel="noopener noreferrer">rapido-club.com</a></em></p>
-                        <p class="section-text">
-                            Создание клиентского приложения для заказа товаров в заведениях
-                            (самовывоз / доставка) на React Native + TypeScript и его веб-версии
-                            на React · Next.js · TypeScript.
-                        </p>
-                        <ul>
-                            <li class="section-text">Создание веб-приложения для заведений: вёрстка компонентов, адаптивная вёрстка.</li>
-                            <li class="section-text">Корзина: добавление/удаление товаров, расчёт стоимости, выбор даты и времени, смена точки заказа с переносом товаров.</li>
-                            <li class="section-text">Поиск по сайту и заведению, карты (Yandex Maps, react-leaflet), авторизация по номеру телефона.</li>
-                            <li class="section-text">Оплата картой через CloudPayments, чат (отправка/получение сообщений, socket.io-client), push-уведомления через Firebase.</li>
-                            <li class="section-text">Работа с макетами в Figma, ведение задач в Trello, участие в Code Review.</li>
-                        </ul>
-                    </article>
-                </section>
-            </div>
-
-            <div class="wrapper">
-                <section class="section" id="education">
-                    <h2>Образование</h2>
-                    <ul>
-                        <li class="section-text">
-                            <strong>Курсы школы «The Rolling Scopes School»</strong> · июнь 2022 — июнь 2023
-                            <ul>
-                                <li class="section-text"><a class="a-text" href="https://rs.school/js-stage0/" target="_blank" rel="noopener noreferrer">JS/FE Pre-School 2022Q2</a></li>
-                                <li class="section-text"><a class="a-text" href="https://rs.school/js/" target="_blank" rel="noopener noreferrer">Course «JavaScript/Front-end»</a></li>
-                                <li class="section-text"><a class="a-text" href="https://rs.school/react/" target="_blank" rel="noopener noreferrer">React Course</a></li>
-                            </ul>
-                        </li>
-                        <li class="section-text">
-                            <strong>Белорусская государственная академия музыки</strong> · сентябрь 2013 — июнь 2018
-                        </li>
-                    </ul>
-                </section>
-
-                <section class="section" id="languages">
-                    <h2>Языки</h2>
-                    <ul>
-                        <li class="section-text">Русский — родной</li>
-                        <li class="section-text">Белорусский — родной</li>
-                        <li class="section-text">Английский — A2</li>
-                    </ul>
-                </section>
-            </div>
+          </section>
         </div>
+
+        <div class="wrapper">
+          <section class="section" id="contacts">
+            <h2>Контакты</h2>
+            <ul>
+              <li class="section-text">Минск, Беларусь</li>
+              <li class="section-text">Телефон: +375 (29) 737-96-84</li>
+              <li class="section-text">E-mail: volhayurchak@mail.ru</li>
+              <li class="section-text">
+                <a
+                  class="a-text"
+                  href="https://t.me/volhayu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Telegram</a
+                >
+              </li>
+              <li class="section-text">
+                <a
+                  class="a-text"
+                  href="https://www.linkedin.com/in/%D0%BE%D0%BB%D1%8C%D0%B3%D0%B0-%D1%8E%D1%80%D1%87%D0%B0%D0%BA-400064256/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+              <li class="section-text">GitHub: VolhaYu</li>
+            </ul>
+          </section>
+
+          <section class="section" id="about">
+            <h2>О себе</h2>
+            <p class="section-text">
+              Frontend Developer · React / TypeScript · 3+ года в продуктовых
+              командах.
+            </p>
+            <p class="section-text">
+              Работаю в продуктовой команде AI-платформы — занимаюсь
+              интерфейсами AI-чата с LLM-ботами и агентами. Работаю с
+              интерфейсами со сложной клиентской логикой: управление состоянием,
+              асинхронные запросы, realtime.
+            </p>
+          </section>
+        </div>
+
+        <div class="wrapper">
+          <section class="section" id="skills">
+            <h2>Навыки</h2>
+            <ul>
+              <li class="section-text">
+                <strong>Frontend:</strong> TypeScript · JavaScript (ES2023+) ·
+                React 19 · Next.js 16 (App Router, Server Components) · React
+                Router 7 · HTML · CSS
+              </li>
+              <li class="section-text">
+                <strong>Состояние и данные:</strong> Zustand · Redux Toolkit ·
+                RTK Query · React Hook Form · REST API · Axios · SSE · WebSocket
+              </li>
+              <li class="section-text">
+                <strong>UI:</strong> Tailwind CSS · Radix UI · KaTeX ·
+                адаптивная вёрстка · Figma
+              </li>
+              <li class="section-text">
+                <strong>Кросс-платформа:</strong> React Native / Expo · Electron
+              </li>
+              <li class="section-text">
+                <strong>Процессы и инструменты:</strong> Jira · Trello · Code
+                Review · Git / GitHub / GitLab
+              </li>
+              <li class="section-text">
+                <strong>Дополнительно:</strong> Vite · npm · pnpm · Vitest ·
+                React Testing Library · OAuth 2.0 (Google, Yandex, VK, Telegram)
+                · Firebase · i18next / react-i18next (12 локалей) · esbuild ·
+                Webpack · socket.io-client
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="wrapper">
+          <section class="section" id="experience">
+            <h2>Опыт работы</h2>
+
+            <article>
+              <h3>
+                Frontend Developer (React / TypeScript) · AI-продукты · Maracuya
+              </h3>
+              <p class="section-text">
+                <em
+                  >Ноябрь 2025 — настоящее время ·
+                  <a
+                    class="a-text"
+                    href="https://maracuya.ru"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >maracuya.ru</a
+                  ></em
+                >
+              </p>
+              <p class="section-text">
+                Frontend-разработчик в продуктовой команде AI-платформы.
+                Основной продукт — AI-чат с LLM-ботами и AI-агентами, генерацией
+                изображений и видео, базой знаний и дополнительными
+                инструментами.
+              </p>
+              <p class="section-text">
+                <strong>Стек:</strong> React, TypeScript, Vite, Zustand, React
+                Router, Tailwind CSS, Radix UI.
+              </p>
+              <p class="section-text">
+                <strong>Дополнительно:</strong> React Native (WebView), Electron
+                (перенос веб-версии в десктопное приложение).
+              </p>
+
+              <p class="section-text">
+                <strong>AI / агенты</strong> — frontend AI-чата с LLM-ботами и
+                AI-агентами: сценарии работы с AI, контекстом, базой знаний и
+                инструментами; отображение ответов, состояний генерации и
+                результатов работы AI.
+              </p>
+              <ul>
+                <li class="section-text">
+                  Разрабатывала и развивала веб-клиент AI-чата: диалоги, поиск,
+                  работа с контекстом, базой знаний и дополнительными
+                  инструментами.
+                </li>
+                <li class="section-text">
+                  Работала с потоковым отображением ответов AI (SSE) и
+                  обработкой состояний генерации, включая восстановление
+                  прерванной генерации; вносила правки в существующую
+                  реализацию.
+                </li>
+                <li class="section-text">
+                  Управляла состоянием чата: сообщения, диалоги, асинхронные
+                  запросы, оптимистичные обновления.
+                </li>
+                <li class="section-text">
+                  Участвовала в разработке интерфейсов генерации изображений.
+                </li>
+                <li class="section-text">
+                  Разрабатывала интерфейсы загрузки и обработки пользовательских
+                  файлов.
+                </li>
+                <li class="section-text">
+                  Обеспечивала отображение Markdown, KaTeX-формул, подсветки
+                  кода и сложного форматирования сообщений.
+                </li>
+                <li class="section-text">
+                  Дорабатывала интерфейс подписки и оплаты.
+                </li>
+                <li class="section-text">
+                  Работала над авторизацией и OAuth-интеграциями, включая
+                  восстановление сессии.
+                </li>
+                <li class="section-text">
+                  Разрабатывала анимации и UI-состояния голосового ввода.
+                </li>
+                <li class="section-text">
+                  Поддерживала мультиязычный интерфейс (12 локалей) и темизацию;
+                  адаптировала интерфейс под desktop и mobile web.
+                </li>
+                <li class="section-text">
+                  Участвовала в разработке и поддержке мобильного приложения на
+                  React Native (WebView-обёртка веб-функциональности).
+                </li>
+                <li class="section-text">
+                  Участвовала в переносе веб-версии в десктопное приложение на
+                  Electron (renderer-часть, адаптация под десктоп).
+                </li>
+                <li class="section-text">
+                  Работала с макетами в Figma, вела задачи в Jira, участвовала в
+                  Code Review.
+                </li>
+              </ul>
+            </article>
+
+            <article>
+              <h3>
+                Frontend Developer (React / TypeScript) · ООО «Интер Программ»
+              </h3>
+              <p class="section-text">
+                <em
+                  >Июль 2023 — октябрь 2025 ·
+                  <a
+                    class="a-text"
+                    href="https://rapido-club.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >rapido-club.com</a
+                  ></em
+                >
+              </p>
+              <p class="section-text">
+                Создание клиентского приложения для заказа товаров в заведениях
+                (самовывоз / доставка) на React Native + TypeScript и его
+                веб-версии на React · Next.js · TypeScript.
+              </p>
+              <ul>
+                <li class="section-text">
+                  Создание веб-приложения для заведений: вёрстка компонентов,
+                  адаптивная вёрстка.
+                </li>
+                <li class="section-text">
+                  Корзина: добавление/удаление товаров, расчёт стоимости, выбор
+                  даты и времени, смена точки заказа с переносом товаров.
+                </li>
+                <li class="section-text">
+                  Поиск по сайту и заведению, карты (Yandex Maps,
+                  react-leaflet), авторизация по номеру телефона.
+                </li>
+                <li class="section-text">
+                  Оплата картой через CloudPayments, чат (отправка/получение
+                  сообщений, socket.io-client), push-уведомления через Firebase.
+                </li>
+                <li class="section-text">
+                  Работа с макетами в Figma, ведение задач в Trello, участие в
+                  Code Review.
+                </li>
+              </ul>
+            </article>
+          </section>
+        </div>
+
+        <div class="wrapper">
+          <section class="section" id="education">
+            <h2>Образование</h2>
+            <ul>
+              <li class="section-text">
+                <strong>Курсы школы «The Rolling Scopes School»</strong> · июнь
+                2022 — июнь 2023
+                <ul>
+                  <li class="section-text">
+                    <a
+                      class="a-text"
+                      href="https://rs.school/js-stage0/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >JS/FE Pre-School 2022Q2</a
+                    >
+                  </li>
+                  <li class="section-text">
+                    <a
+                      class="a-text"
+                      href="https://rs.school/js/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Course «JavaScript/Front-end»</a
+                    >
+                  </li>
+                  <li class="section-text">
+                    <a
+                      class="a-text"
+                      href="https://rs.school/react/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >React Course</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="section-text">
+                <strong>Белорусская государственная академия музыки</strong> ·
+                сентябрь 2013 — июнь 2018
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" id="languages">
+            <h2>Языки</h2>
+            <ul>
+              <li class="section-text">Русский — родной</li>
+              <li class="section-text">Белорусский — родной</li>
+              <li class="section-text">Английский — A2</li>
+            </ul>
+          </section>
+        </div>
+      </div>
     </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="wrapper">
-                <p class="footer-p">2026
-                    <a class="link-git" href="https://github.com/VolhaYu">VolhaYu</a>
-                </p>
-                <a href="https://rs.school/js/">
-                    <img class="logo" src="assets/svg/rs_school_js.svg" alt="logo Rs" width="150">
-                </a>
-            </div>
-        </div>
-    </footer>
-</body>
+  </body>
 </html>
